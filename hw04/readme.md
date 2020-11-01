@@ -20,6 +20,11 @@ To forward the traffic to the queue:
 iptables -D FORWARD -i eth0 -j ACCEPT
 iptables -A FORWARD -j NFQUEUE --queue-num 1
 
+secret to find:
+cc --- 8452.8214.9088.8566
+pwd --- VERYSECURE1111
+pwd --- UQXI5I06UX924
+
 ### Exercise 2
 Del and add gateway: 
 route del default gw 172.21.0.1
