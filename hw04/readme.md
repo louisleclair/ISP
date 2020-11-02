@@ -1,9 +1,9 @@
 ## Useful commands
 
-### Exercise 1
-
 docker exec -it client /bin/sh
 docker exec -it mitm /bin/bash
+
+### Exercise 1
 
 mitm IP:
 172.20.0.3
